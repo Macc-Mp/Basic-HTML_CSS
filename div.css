@@ -1,7 +1,8 @@
 .centered-div {   /*Using auto margine*/  
     width: 300px; /* Or any desired width */
+    height: 300px;
     margin: auto;
-    color:aqua;
+    background-color:aqua;
   }
 
 
