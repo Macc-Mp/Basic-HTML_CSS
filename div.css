@@ -1,0 +1,28 @@
+.centered-div {   /*Using auto margine*/  
+    width: 300px; /* Or any desired width */
+    margin: auto;
+  }
+
+
+  /*
+
+  USING FLEX BOX
+
+  .centered-flexbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  USING ABSOLUTE POSITIONING
+
+  .centered-absolute {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+
+  */
+  
