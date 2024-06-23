@@ -45,3 +45,13 @@ function tooManyScoops(dessert: Sundae) {
     }
 }
 console.log(tooManyScoops({flavor: 'vanilla', scoops: 5, sauce: 'caramel'}));
+
+//Index
+interface IceCreamArray {
+    [index: number]: string;
+}
+
+let myIceCream: IceCreamArray;
+myIceCream = ['chocolate', 'vanilla', 'strawberry'];
+let myStr: string = myIceCream[0];
+console.log(myStr);
